@@ -82,6 +82,8 @@ Create the JOBS workflow in NIS-Elements as follows:
 14. When acquisition is complete, select **Finish**.
 15. Save the resulting time-lapse dataset using the sample ID and upload the dataset to the appropriate OMERO repository.
 
+NOTE: It is important to save the files produced in a different folder when restarting or initiating another time-lapse. Additionally, the parameters need to be adjusted for the workflow to be effective. If not, there is a high risk of malfunction and equipment damage.  
+
 Before starting a new JOB run, move or archive the previous log and debug directories. This prevents previous tracking records from being incorrectly incorporated into subsequent acquisitions.
 
 ## Tracking Parameters
